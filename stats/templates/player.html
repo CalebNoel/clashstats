@@ -1,0 +1,10 @@
+<h1> {{name}} </h1>
+<p> Level: {{expLevel}} </p>
+<p> Trophies: {{trophies}} </p>
+
+<button id="battles" class="float-left-submit-button">View Battle History</button>
+<script type="text/javascript">
+  document.getElementById("battles").onclick = function () {
+    location.href=window.location.href +"battles";
+  };
+</script>
